@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,9 +8,9 @@ function App() {
       {/* Navegación */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <span className="navbar-brand">
             Mi Portafolio
-          </a>
+          </span>
           <button
             className="navbar-toggler"
             type="button"
