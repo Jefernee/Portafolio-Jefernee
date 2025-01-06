@@ -341,6 +341,9 @@ function App() {
                   <li>
                     <i className="bi bi-keyboard"></i> Git
                   </li>
+                  <li>
+                    <i className="bi bi-keyboard"></i> Netlify
+                  </li>
                 </ul>
               </div>
             </div>
@@ -486,9 +489,9 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Proyecto Clinica</h5>
                   <p className="card-text">
-                   Sistema de gestión para clínica.
-                   Tecnologías: C# y SQL Server.
-                   Rol: Desarrollo de Front-end, Back-end e integración de base de datos.
+                     <p>Sistema de escritorio para gestión de clínica</p>
+                     <p><strong>Tecnologías:</strong> C# y SQL Server.</p>
+                     <p><strong>Rol:</strong> Desarrollo de Front-end, Back-end e integración de base de datos.</p>
                   </p>
                   <a href="https://github.com/Jefernee/Proyecto-Escritorio-Clinica-Ruos/tree/master" className="btn btn-primary">
                     Ver más
@@ -499,11 +502,26 @@ function App() {
             <div className="col-md-6">
               <div className="card mb-4 shadow-sm">
                 <div className="card-body">
+                  <h5 className="card-title">Portafolio Web jefernee</h5>
+                  <p className="card-text">
+                    <p>Portafolio personal</p>
+                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, React, Node.js, Bootstrap.</p>
+                    <p><strong>Descripción:</strong> Portafolio en línea desplegado en Netlify, donde presento mi perfil profesional y muestro mis proyectos de desarrollo web con un diseño responsivo y funcional.</p>
+                  </p>
+                  <a href="https://github.com/Jefernee/Portafolio-Jefernee/tree/master" className="btn btn-primary">
+                    Ver más
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card mb-4 shadow-sm">
+                <div className="card-body">
                   <h5 className="card-title">Proyecto Sala de Juegos Ruiz</h5>
                   <p className="card-text">
-                  Plataforma para gestión y análisis de datos en sala de juegos.
-                  Tecnologías: HTML5, CSS, JavaScript, Bootstrap, Java, MySQL.
-                  Rol: Desarrollo Front-end, Back-end e integración de base de datos.
+                  <p>Sistema de gestión y analisis de datos para sala de juegos</p> 
+                  <p><strong>Tecnologías:</strong> Java, MySQL, Bootstrap, JavaScript, HTML, CSS.</p> 
+                  <p><strong>Rol:</strong> Desarrollo de Front-end, Back-end e integración de base de datos.</p>
                   </p>
                   <a
                     href="https://github.com/Jefernee/Proyecto-de-Sala-de-juegos"
@@ -516,6 +534,7 @@ function App() {
             </div>
           </div>
         </div>
+        
       </section>
 
       {/* Contacto */}
