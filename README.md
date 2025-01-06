@@ -3,7 +3,7 @@
 Este es mi **portafolio personal** en línea, creado para mostrar mis habilidades en el desarrollo web. El sitio está construido con tecnologías modernas como **React** y **Node.js**, lo que me permite ofrecer una experiencia interactiva y fluida, además de una interfaz dinámica y responsiva, adaptándose a dispositivos de diferentes tamaños.
 
 ## Tecnologías utilizadas
-- **Frontend:** HTML, CSS, JavaScript, React, Bootstrap.
+- **Frontend:** HTML, CSS, JavaScript, React, Bootstrap, Tailwind.
 - **Backend:** Node.js.
 - **Despliegue:** Netlify.
 - **Editor:** Visual Studio Code.
