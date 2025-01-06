@@ -485,7 +485,11 @@ function App() {
               <div className="card mb-4 shadow-sm">
                 <div className="card-body">
                   <h5 className="card-title">Proyecto Clinica</h5>
-                  <p className="card-text">Proyecto de escritorio de Clinica</p>
+                  <p className="card-text">
+                   Sistema de gestión para clínica.
+                   Tecnologías: C# y SQL Server.
+                   Rol: Desarrollo de Front-end, Back-end e integración de base de datos.
+                  </p>
                   <a href="https://github.com/Jefernee/Proyecto-Escritorio-Clinica-Ruos/tree/master" className="btn btn-primary">
                     Ver más
                   </a>
@@ -497,7 +501,9 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Proyecto Sala de Juegos Ruiz</h5>
                   <p className="card-text">
-                    Sitio web dinámico para una sala de juegos.
+                  Plataforma para gestión y análisis de datos en sala de juegos.
+                  Tecnologías: HTML5, CSS, JavaScript, Bootstrap, Java, MySQL.
+                  Rol: Desarrollo Front-end, Back-end e integración de base de datos.
                   </p>
                   <a
                     href="https://github.com/Jefernee/Proyecto-de-Sala-de-juegos"
