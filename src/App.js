@@ -8,17 +8,12 @@ function App() {
       {/* Navegación */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <span className="navbar-brand">
-            Mi Portafolio
-          </span>
+          <span className="navbar-brand">Mi Portafolio</span>
           <button
-
-           className="navbar-toggler"
-           type="button"
-           data-bs-toggle="collapse"
-           data-bs-target="#navbarNav"
-
-            
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -45,6 +40,11 @@ function App() {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#curriculum">
+                  Curriculum
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#contact">
                   Contacto
                 </a>
@@ -59,8 +59,8 @@ function App() {
         <div className="container">
           <h1>¡Hola! Soy Jefernee Ruiz Garcia</h1>
           <p className="lead">
-            Desarrollador de software | Ingeniero de Sistemas | Docente de Informática |
-            Redes | Bases de Datos | Seguridad de la información
+            Desarrollador de software | Ingeniero de Sistemas | Docente de
+            Informática | Redes | Bases de Datos | Seguridad de la información
           </p>
         </div>
       </header>
@@ -70,8 +70,8 @@ function App() {
         <div className="container">
           <h2 className="text-center">Sobre mí</h2>
           <p className="mt-4 text-center">
-            Soy Jefernee Ruiz, Desarrollador de software con una gran pasión
-            por la tecnología y el desarrollo web. He combinado mis estudios
+            Soy Jefernee Ruiz, Desarrollador de software con una gran pasión por
+            la tecnología y el desarrollo web. He combinado mis estudios
             formales con un deseo constante de aprender nuevas herramientas y
             lenguajes. Mi experiencia se centra en el desarrollo web utilizando
             tecnologías como React, JavaScript, Bootstrap y Java además tengo
@@ -215,7 +215,7 @@ function App() {
                 </ul>
               </div>
             </div>
-            
+
             <div className="col-md-3">
               <div className="p-3 shadow-2x1 rounded border custom-style">
                 <h4 className="mb-3">Sistemas Operativos</h4>
@@ -246,7 +246,6 @@ function App() {
                 </ul>
               </div>
             </div>
-
           </div>
 
           {/* Tercer fila */}
@@ -284,7 +283,7 @@ function App() {
                     <i className="bi bi-router"></i> Word
                   </li>
                   <li>
-                    <i className="bi bi-geo"></i> Excel
+                    <i className="bi bi-geo"></i> Excel Intermedio
                   </li>
                   <li>
                     <i className="bi bi-link-45deg"></i> PowerPoint
@@ -304,7 +303,7 @@ function App() {
                 </ul>
               </div>
             </div>
-            
+
             <div className="col-md-3">
               <div className="p-3 shadow-2x1 rounded border custom-style">
                 <h4 className="mb-3">Arquitectura</h4>
@@ -313,7 +312,8 @@ function App() {
                     <i className="bi bi-gear"></i> Diseño en Capas
                   </li>
                   <li>
-                    <i className="bi bi-windows"></i> Programación Orientada a Objetos
+                    <i className="bi bi-windows"></i> Programación Orientada a
+                    Objetos
                   </li>
                   <li>
                     <i className="bi bi-keyboard"></i> Cascada
@@ -344,13 +344,15 @@ function App() {
                   <li>
                     <i className="bi bi-keyboard"></i> Netlify
                   </li>
+                  <li>
+                    <i className="bi bi-keyboard"></i> Home by me
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       {/* Titulos */}
       <section id="titulos" className="bg-custom py-5">
@@ -475,6 +477,20 @@ function App() {
                 </div>
               </div>
             </div>
+            {/* Tarjeta 9 */}
+            <div className="col-md-4 mb-4">
+              <div className="card shadow-sm">
+                <div className="card-body text-center">
+                  <h5 className="card-title">Licenciatura en Docencia</h5>
+                  <p className="card-text">
+                    Universidad Internacional San Isidro Labrador (UISIL)
+                    <br />
+                    Fecha: Agosto 2024 En Curso
+                  </p>
+                  <span className="badge bg-primary">Título</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -489,11 +505,19 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Proyecto Clinica</h5>
                   <p className="card-text">
-                     <p>Sistema de escritorio para gestión de clínica</p>
-                     <p><strong>Tecnologías:</strong> C# y SQL Server.</p>
-                     <p><strong>Rol:</strong> Desarrollo de Front-end, Back-end e integración de base de datos.</p>
+                    <p>Sistema de escritorio para gestión de clínica</p>
+                    <p>
+                      <strong>Tecnologías:</strong> C# y SQL Server.
+                    </p>
+                    <p>
+                      <strong>Rol:</strong> Desarrollo de Front-end, Back-end e
+                      integración de base de datos.
+                    </p>
                   </p>
-                  <a href="https://github.com/Jefernee/Proyecto-Escritorio-Clinica-Ruos/tree/master" className="btn btn-primary">
+                  <a
+                    href="https://github.com/Jefernee/Proyecto-Escritorio-Clinica-Ruos/tree/master"
+                    className="btn btn-primary"
+                  >
                     Ver más
                   </a>
                 </div>
@@ -505,10 +529,21 @@ function App() {
                   <h5 className="card-title">Portafolio Web jefernee</h5>
                   <p className="card-text">
                     <p>Portafolio personal</p>
-                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, React, Node.js, Bootstrap.</p>
-                    <p><strong>Descripción:</strong> Portafolio en línea desplegado en Netlify, donde presento mi perfil profesional y muestro mis proyectos de desarrollo web con un diseño responsivo y funcional.</p>
+                    <p>
+                      <strong>Tecnologías:</strong> HTML, CSS, JavaScript,
+                      React, Node.js, Bootstrap.
+                    </p>
+                    <p>
+                      <strong>Descripción:</strong> Portafolio en línea
+                      desplegado en Netlify, donde presento mi perfil
+                      profesional y muestro mis proyectos de desarrollo web con
+                      un diseño responsivo y funcional.
+                    </p>
                   </p>
-                  <a href="https://github.com/Jefernee/Portafolio-Jefernee/tree/master" className="btn btn-primary">
+                  <a
+                    href="https://github.com/Jefernee/Portafolio-Jefernee/tree/master"
+                    className="btn btn-primary"
+                  >
                     Ver más
                   </a>
                 </div>
@@ -519,9 +554,17 @@ function App() {
                 <div className="card-body">
                   <h5 className="card-title">Proyecto Sala de Juegos Ruiz</h5>
                   <p className="card-text">
-                  <p>Sistema de gestión y analisis de datos para sala de juegos</p> 
-                  <p><strong>Tecnologías:</strong> Java, MySQL, Bootstrap, JavaScript, HTML, CSS.</p> 
-                  <p><strong>Rol:</strong> Desarrollo de Front-end, Back-end e integración de base de datos.</p>
+                    <p>
+                      Sistema de gestión y analisis de datos para sala de juegos
+                    </p>
+                    <p>
+                      <strong>Tecnologías:</strong> Java, MySQL, Bootstrap,
+                      JavaScript, HTML, CSS.
+                    </p>
+                    <p>
+                      <strong>Rol:</strong> Desarrollo de Front-end, Back-end e
+                      integración de base de datos.
+                    </p>
                   </p>
                   <a
                     href="https://github.com/Jefernee/Proyecto-de-Sala-de-juegos"
@@ -534,7 +577,27 @@ function App() {
             </div>
           </div>
         </div>
-        
+      </section>
+
+      {/* Sección para el currículum */}
+      <section id="curriculum" className="bg-light py-5">
+        <div className="container">
+          <h2 className="text-center">Descargar mi Currículum</h2>
+          <p className="mt-4 text-center">
+            Si deseas conocer más sobre mi formación y experiencia profesional,
+            puedes descargar mi currículum actualizado haciendo clic en el
+            siguiente botón.
+          </p>
+          <div className="d-flex justify-content-center">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1ptF2bkAQQqNVJJ8o3AnwjMNg79Yi4nUn" // Actualiza con el link correcto
+              download="Curriculum-Jefernee.pdf"
+              className="btn btn-success btn-lg"
+            >
+              Descargar mi Currículum
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* Contacto */}
