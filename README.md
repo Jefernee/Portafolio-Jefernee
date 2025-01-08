@@ -14,6 +14,11 @@ Este es mi **portafolio personal** en línea, creado para mostrar mis habilidade
 Este portafolio fue creado con el objetivo de reflejar mis conocimientos y experiencias en el desarrollo web. Utilicé **React** para construir una interfaz dinámica y adaptable, mientras que **Node.js** se emplea para algunas funciones del backend. Gracias al uso de **Bootstrap**, se garantiza que el diseño se ajuste a diferentes dispositivos y tamaños de pantalla. El proyecto está desplegado en **Netlify** para ofrecer acceso constante y de manera eficiente.
 
 ## Instrucciones para ejecutar el proyecto
+C:\Pruebas Proyectos>node -v
+v18.20.5
+
+C:\Pruebas Proyectos>npm -v
+10.8.2
 
 ### Requisitos previos
 Para ejecutar este proyecto en tu máquina local necesitas tener instalada la última versión de **Node.js** y **npm**.
