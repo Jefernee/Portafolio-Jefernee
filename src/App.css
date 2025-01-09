@@ -13,15 +13,27 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+ /*background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;*/
+
+.App-header {
+  background-color: #244850; /* Fondo con el color especificado */
+  padding: 5rem 2rem; /* Relleno cómodo para los dispositivos */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra en eje X */
+  justify-content: center; /* Centra en eje Y */
+  font-size: calc(1rem + 1vw); /* Se ajusta más dinámicamente con el tamaño de la pantalla */
+  color: rgb(253, 252, 252); /* Color del texto */
+  box-shadow: 0 4px 10px rgba(163, 41, 41, 0.2); /* Sombra sutil */
+  animation: fadeIn 2s forwards, textSlide 1.5s ease-out forwards, zoomIn 1.5s ease-in-out forwards;
+  opacity: 1; /* Visible de inmediato */
 }
 
 .bg-custom {
@@ -33,6 +45,7 @@
   background-color: #9db4b6; /* Color de fondo */
   box-shadow: 0 6px 20px rgba(21, 21, 21, 0.5); /* Sombra muy notable */
 }
+
 
 
 .App-link {

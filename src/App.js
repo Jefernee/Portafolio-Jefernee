@@ -53,9 +53,9 @@ function App() {
           </div>
         </div>
       </nav>
-
+      {/*bg-primary*/}
       {/* Encabezado */}
-      <header className="bg-primary text-white text-center py-5">
+      <header className="App-header text-white text-center py-5">
         <div className="container">
           <h1>¡Hola! Soy Jefernee Ruiz Garcia</h1>
           <p className="lead">
@@ -196,6 +196,12 @@ function App() {
                   <li>
                     <i className="bi bi-network-wired"></i> Nmap
                   </li>
+                  <li>
+                    <i className="bi bi-network-wired"></i> Firewalls
+                  </li>
+                  <li>
+                    <i className="bi bi-network-wired"></i> IDS/IPS
+                  </li>
                 </ul>
               </div>
             </div>
@@ -203,14 +209,23 @@ function App() {
               <div className="p-3 shadow-2x1 rounded border custom-style">
                 <h4 className="mb-3">Redes</h4>
                 <ul className="list-unstyled">
+                <li>
+                    <i className="bi bi-router"></i> Cisco Packet Tracer
+                  </li>
                   <li>
                     <i className="bi bi-router"></i> VLAN
                   </li>
                   <li>
-                    <i className="bi bi-geo"></i> RIP, OSPF
+                    <i className="bi bi-geo"></i> Protocolos de Enrutamiento
                   </li>
                   <li>
-                    <i className="bi bi-link-45deg"></i> BGP, EIGRP
+                    <i className="bi bi-geo"></i> RIP, OSPF, BGP y EIGRP
+                  </li>
+                  <li>
+                    <i className="bi bi-link-45deg"></i> Servicios de red
+                  </li>
+                  <li>
+                    <i className="bi bi-link-45deg"></i> DNS, DHCP, VPN
                   </li>
                 </ul>
               </div>
@@ -590,7 +605,7 @@ function App() {
           </p>
           <div className="d-flex justify-content-center">
             <a
-              href="https://drive.google.com/uc?export=download&id=1ptF2bkAQQqNVJJ8o3AnwjMNg79Yi4nUn" // Actualiza con el link correcto
+              href="https://drive.google.com/file/d/1sdOtlj2Frpp3xPH6f_98i035abbhZPCN/view?usp=drive_link" // Actualiza con el link correcto
               download="Curriculum-Jefernee.pdf"
               className="btn btn-success btn-lg"
             >
