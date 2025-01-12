@@ -617,7 +617,7 @@ function App() {
                     Ver Página Web
                   </a>
                   <a
-                    href="https://github.com/Jefernee/Proyecto-de-Sala-de-juegos"
+                    href="https://github.com/Ferny16/Sala-de-Juegos-Ruiz"
                     className="btn btn-secondary ml-2"
                   >
                     Ver código en GitHub
