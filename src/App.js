@@ -209,7 +209,7 @@ function App() {
               <div className="p-3 shadow-2x1 rounded border custom-style">
                 <h4 className="mb-3">Redes</h4>
                 <ul className="list-unstyled">
-                <li>
+                  <li>
                     <i className="bi bi-router"></i> Cisco Packet Tracer
                   </li>
                   <li>
@@ -590,6 +590,41 @@ function App() {
                 </div>
               </div>
             </div>
+            <div className="col-md-6">
+              <div className="card mb-4 shadow-sm">
+                <div className="card-body">
+                  <h5 className="card-title">Página Web Sala de Juegos</h5>
+                  <p className="card-text">
+                    <p>
+                      Página web para la gestión de una sala de juegos,
+                      permitiendo la visualización y administración de los
+                      juegos disponibles.
+                    </p>
+                    <p>
+                      <strong>Tecnologías:</strong> React, JavaScript,
+                      Bootstrap, HTML, CSS.
+                    </p>
+                    <p>
+                      <strong>Rol:</strong> Desarrollo del Front-end utilizando
+                      React, integración de componentes interactivos y diseño
+                      responsivo.
+                    </p>
+                  </p>
+                  <a
+                    href="https://salajuegosruiz.netlify.app/"
+                    className="btn btn-primary"
+                  >
+                    Ver Página Web
+                  </a>
+                  <a
+                    href="https://github.com/Jefernee/Proyecto-de-Sala-de-juegos"
+                    className="btn btn-secondary ml-2"
+                  >
+                    Ver código en GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -658,6 +693,8 @@ function App() {
       {/* Footer */}
       <footer className="bg-dark text-white text-center py-3">
         <p>&copy; 2025 Mi Portafolio - Todos los derechos reservados</p>
+        <p>Proyecto realizado por <strong>Jefernee Ruiz</strong></p>
+        <p>Contacto: <a href="mailto:jefernee50@gmail.com">jefernee@gmail.com</a></p>
       </footer>
     </div>
   );
